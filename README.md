@@ -16,3 +16,10 @@ Using hist object plot the graph between validation loss, training loss and vali
 Check for the epochs(iterations) if validation loss is increasing and validation accuracy is decreasing perfrom early stopping by decreasing epochs.
 
 Check for the accuracy on testing and training dataset.
+
+Choices made :
+1. Sigmoid is used as it will classify output as 0 or 1 but ReLu/SoftMax will provide probablities.
+2. Epochs are chosen by focussing on decrease in validation accuracy and increase in validation loss for multiple times.
+3. 5 layers were made because it was mentioned in the task.
+4. ID, Molecule_name, Confrontation_name are dropped because we were concerned with features although those can be vectorized thus not causing any problem to model.
+
